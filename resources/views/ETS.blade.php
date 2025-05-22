@@ -18,7 +18,8 @@
             href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
             rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ asset('css/stylesETS.css') }}">
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -290,7 +291,7 @@
                         <a class="mx-2" href="https://www.instagram.com/handmadescotcheggco/"><i
                             class="fab fa-instagram"></i></a>
                     <a class="mx-2" href="https://www.tiktok.com/@handmadescotcheggco"><i class="fab fa-tiktok"></i></a>
-            
+
                 </div>
             </div>
         </section>

@@ -163,7 +163,7 @@
                 <p>Halaman Utama</p>
             </div>
             <div class="card">
-                <a href="{{ url('/index1') }}">Index1</a>
+                <a href="{{ url('/ETS') }}">ETS</a>
                 <p>Alternatif Index</p>
             </div>
             <div class="card">
@@ -177,10 +177,6 @@
             <div class="card">
                 <a href="{{ url('/pertemuan7') }}">Pertemuan 7</a>
                 <p>Materi Pertemuan 7</p>
-            </div>
-            <div class="card">
-                <a href="{{ url('/styles') }}">Styles</a>
-                <p>Halaman Styles</p>
             </div>
             <div class="card">
                 <a href="{{ url('/template1') }}">Template1</a>
