@@ -19,3 +19,16 @@ Route::get('blog', function () {
 Route::get('satu', function () {
 	return view('pertama');
 });
+
+Route::get('/frontend', function () {
+    return view('frontend');
+});
+
+Route::view('/blog', 'blog');
+Route::view('/index', 'index');
+Route::view('/index1', 'index1');
+Route::view('/pertama', 'pertama');
+Route::view('/pertemuan4', 'pertemuan4');
+Route::view('/pertemuan7', 'pertemuan7');
+Route::view('/styles', 'styles');
+Route::view('/template1', 'template1');
