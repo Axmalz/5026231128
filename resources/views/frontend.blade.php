@@ -160,31 +160,35 @@
             </div>
             <div class="card">
                 <a href="{{ url('/ETS') }}">ETS</a>
-                <p>Halaman Web Index</p>
+                <p>Halaman Web ETS</p>
             </div>
             <div class="card">
                 <a href="{{ url('/blog') }}">Blog</a>
-                <p>Halaman Blog</p>
+                <p>Template Halaman Blog</p>
             </div>
             <div class="card">
-                <a href="{{ url('/indexLinktree') }}">Linktree</a>
-                <p>Halaman Linktree</p>
+                <a href="{{ url('/indexLinktree') }}">Linktree @thelantis</a>
+                <p>Halaman Linktree </p>
             </div>
             <div class="card">
-                <a href="{{ url('/pertama') }}">Pertama</a>
-                <p>Pertemuan 1</p>
+                <a href="{{ url('/pertama') }}">Pertemuan 1</a>
+                <p>Artikel ITS</p>
             </div>
             <div class="card">
                 <a href="{{ url('/pertemuan4') }}">Pertemuan 4</a>
-                <p>Materi Pertemuan 4</p>
+                <p>Form</p>
             </div>
             <div class="card">
                 <a href="{{ url('/pertemuan7') }}">Pertemuan 7</a>
-                <p>Materi Pertemuan 7</p>
+                <p>Notifikasi Validasi Form</p>
             </div>
             <div class="card">
-                <a href="{{ url('/template1') }}">Template 1</a>
-                <p>Halaman Template 1</p>
+                <a href="{{ url('/template1') }}">Template Grid</a>
+                <p>Template Percobaan Grid</p>
+            </div>
+            <div class="card">
+                <a href="{{ url('/pegawai') }}">Pegawai</a>
+                <p>Tabel Pegawai</p>
             </div>
         </div>
     </div>

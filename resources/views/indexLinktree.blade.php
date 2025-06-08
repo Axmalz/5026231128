@@ -26,7 +26,7 @@
       </div>
 
       <div class="container">
-        <img src="assets/profile.jpeg" alt="Profile Picture"
+        <img src="img/profile.jpeg" alt="Profile Picture"
           class="profile-pic">
 
         <h1>@thelantis</h1>
@@ -156,7 +156,7 @@
           <div class="video-container">
             <a href="https://youtu.be/wn05Kgt73HA" target="_blank"
               style="display: inline-block; width: 100%; height: 100%;">
-              <img src="assets/thumbnail.webp"
+              <img src="img/thumbnail.webp"
                 alt="The Lantis – Bunga Maaf (Visualizer)"
                 style="width: 100%; height: 100%; object-fit: cover;">
             </a>
@@ -173,7 +173,7 @@
           <a href="https://whatsapp.com/channel/0029VacZjnt9sBI1RfX2PJ3O"
            class="link"
             style="display: flex; align-items: center; justify-content: center; position: relative; padding-left: 50px; font-weight: 500;">
-            <img src="assets/profile-whatsapp.jpeg" class="icon-img"
+            <img src="img/profile-whatsapp.jpeg" class="icon-img"
               style="position: absolute; left: 10px; width: 40px; height: 40px; border-radius: 50%;">
             <span style="font-weight: 600;">The Lantis | Official WhatsApp
               Channel</span>
