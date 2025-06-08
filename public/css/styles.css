@@ -19,12 +19,12 @@ body {
   width: 100%;
 }
 
-/* Header untuk tombol share */
+
 .header {
   position: absolute;
   top: 16px;
   right: 16px;
-  /* Jika kamu ingin tombol berada di atas konten profil */
+
 }
 
 /* Tombol Share Profile */
