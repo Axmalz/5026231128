@@ -40,7 +40,7 @@
                     <a class="nav-link" href="/pegawai">Pegawai</a>
                 </li>
                 <li class="nav-item {{ request()->is('tugas-crud') ? 'active' : '' }}">
-                    <a class="nav-link" href="#">Tugas CRUD</a>
+                    <a class="nav-link" href="/truk">Tugas CRUD</a>
                 </li>
                 <li class="nav-item {{ request()->is('eas') ? 'active' : '' }}">
                     <a class="nav-link" href="#">EAS</a>

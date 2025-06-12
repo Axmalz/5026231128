@@ -188,7 +188,11 @@
             </div>
             <div class="card">
                 <a href="{{ url('/pegawai') }}">Pegawai</a>
-                <p>Tabel Pegawai</p>
+                <p>Database Pegawai</p>
+            </div>
+            <div class="card">
+                <a href="{{ url('/truk') }}">Tugas Pertemuan 14</a>
+                <p>CRUD Database Truk</p>
             </div>
         </div>
     </div>
