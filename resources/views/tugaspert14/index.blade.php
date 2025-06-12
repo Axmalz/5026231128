@@ -12,7 +12,7 @@
 	</form>
     <br />
 
-    <table class="table table-striped">
+    <table class="table table-striped table-hover">
         <tr>
             <th>ID</th> <!-- apakah perlu? -->
             <th>Merk Truk</th>
@@ -27,7 +27,9 @@
             <td>{{ $t->merktruk }}</td>
             <td>${{ number_format($t->hargatruk, 2, '.', ',') }}</td>
             <td>
-            {{ $t->tersedia == 1 ? 'tersedia' : 'tidak tersedia' }}
+                <span class="badge {{ $t->tersedia == 1 ? 'bg-success' : 'bg-danger' }}" style="color: #fff;">
+                    {{ $t->tersedia == 1 ? 'tersedia' : 'tidak tersedia' }}
+                </span>
             </td>
             <td>{{ $t->berat }} kg</td>
             <td>

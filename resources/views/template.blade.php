@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title><b>Fadhiil Akmal Hamizan : 5026231128</b></title>
+    <title>Fadhiil Akmal Hamizan : 5026231128</title>
     <!-- Google Fonts: Poppins -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
     <style>
@@ -30,7 +30,7 @@
 
 <body>
     <div class="jumbotron text-center mx-auto mb-0">
-        <h1>5026231128 : Fadhiil Akmal Hamizan</h1>
+        <h1><b>5026231128 : Fadhiil Akmal Hamizan</b></h1>
     </div>
 
     <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm">

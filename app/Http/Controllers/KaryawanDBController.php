@@ -43,15 +43,13 @@ public function store(Request $request)
 
 }
 
-// method untuk edit data karyawan
-public function edit($kodepegawai)
-{
-	// mengambil data karyawan berdasarkan kodepegawai yang dipilih
-	$karyawan = DB::table('karyawan')->where('kodepegawai',$kodepegawai)->get();
-	// passing data karyawan yang didapat ke view edit.blade.php
-	return view('tugaspert15/edit',['karyawan' => $karyawan]);
-
-}
+// public function edit($kodepegawai)
+// {
+// 	// mengambil data karyawan berdasarkan kodepegawai yang dipilih
+// 	$karyawan = DB::table('karyawan')->where('kodepegawai',$kodepegawai)->get();
+// 	// passing data karyawan yang didapat ke view edit.blade.php
+// 	return view('tugaspert15/edit',['karyawan' => $karyawan]);
+// }
 
 // update data karyawan
 public function update(Request $request)

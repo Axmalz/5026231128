@@ -12,7 +12,7 @@
 	</form>
     <br />
 
-    <table class="table table-striped">
+    <table class="table table-striped table-hover">
         <tr>
             <th>Nama</th>
             <th>Jabatan</th>

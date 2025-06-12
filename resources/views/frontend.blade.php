@@ -1,3 +1,6 @@
+@extends('template')
+@section('content')
+
 {{-- resources/views/frontend.blade.php --}}
 <!DOCTYPE html>
 <html lang="en">
@@ -146,55 +149,82 @@
             <div class="details">
                 <div class="identity">
                     <p><strong>Nama:</strong> Fadhiil Akmal Hamizan </p>
-                    <p><strong>Deskripsi:</strong> Portofolio Web dan Aplikasi</p>
-                    <p><strong>Status:</strong> Kumpulan Frontend PWEB</p>
+                    <p><strong>Deskripsi:</strong> Portofolio Frontend Pemrograman Web</p>
                 </div>
                 <a class="button" href="https://github.com/Axmalz" target="_blank">Lihat GitHub</a>
             </div>
         </div>
 
         <div class="grid">
-            <div class="card">
-                <a href="{{ url('/welcome') }}">Welcome</a>
-                <p>Welcome by Laravel</p>
-            </div>
-            <div class="card">
-                <a href="{{ url('/ETS') }}">ETS</a>
-                <p>Halaman Web ETS</p>
-            </div>
-            <div class="card">
-                <a href="{{ url('/blog') }}">Blog</a>
-                <p>Template Halaman Blog</p>
-            </div>
-            <div class="card">
-                <a href="{{ url('/indexLinktree') }}">Linktree @thelantis</a>
-                <p>Halaman Linktree </p>
-            </div>
-            <div class="card">
-                <a href="{{ url('/pertama') }}">Pertemuan 1</a>
-                <p>Artikel ITS</p>
-            </div>
-            <div class="card">
-                <a href="{{ url('/pertemuan4') }}">Pertemuan 4</a>
-                <p>Form</p>
-            </div>
-            <div class="card">
-                <a href="{{ url('/pertemuan7') }}">Pertemuan 7</a>
-                <p>Notifikasi Validasi Form</p>
-            </div>
-            <div class="card">
-                <a href="{{ url('/template1') }}">Template Grid</a>
-                <p>Template Percobaan Grid</p>
-            </div>
-            <div class="card">
-                <a href="{{ url('/pegawai') }}">Pegawai</a>
-                <p>Database Pegawai</p>
-            </div>
-            <div class="card">
-                <a href="{{ url('/truk') }}">Tugas Pertemuan 14</a>
-                <p>CRUD Database Truk</p>
-            </div>
+            <a href="{{ url('/welcome') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Welcome</span>
+                    <p>Welcome by Laravel</p>
+                </div>
+            </a>
+            <a href="{{ url('/ETS') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">ETS</span>
+                    <p>Halaman Web ETS</p>
+                </div>
+            </a>
+            <a href="{{ url('/blog') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Blog</span>
+                    <p>Template Halaman Blog</p>
+                </div>
+            </a>
+            <a href="{{ url('/indexLinktree') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Linktree</span>
+                    <p>Halaman Linktree</p>
+                </div>
+            </a>
+            <a href="{{ url('/pertama') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Pertemuan 1</span>
+                    <p>Artikel ITS</p>
+                </div>
+            </a>
+            <a href="{{ url('/pertemuan4') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Pertemuan 4</span>
+                    <p>Form</p>
+                </div>
+            </a>
+            <a href="{{ url('/pertemuan7') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Pertemuan 7</span>
+                    <p>Notifikasi Validasi Form</p>
+                </div>
+            </a>
+            <a href="{{ url('/template1') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Template Grid</span>
+                    <p>Percobaan Grid</p>
+                </div>
+            </a>
+            <a href="{{ url('/pegawai') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Pegawai</span>
+                    <p>Database Pegawai</p>
+                </div>
+            </a>
+            <a href="{{ url('/truk') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Tugas Pertemuan 14</span>
+                    <p>CRUD Database Truk</p>
+                </div>
+            </a>
+            <a href="{{ url('/karyawan') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Tugas Pertemuan 15</span>
+                    <p>CRUD Database Karyawan [Latihan 1]</p>
+                </div>
+            </a>
         </div>
     </div>
 </body>
 </html>
+
+@endsection

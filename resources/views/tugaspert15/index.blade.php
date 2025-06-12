@@ -10,7 +10,7 @@
 	</form>
     <br />
 
-    <table class="table table-striped">
+    <table class="table table-striped table-hover">
         <tr>
             <th>Kode Pegawai </th> <!-- apakah perlu? -->
             <th>Nama Lengkap</th>
@@ -25,7 +25,7 @@
             <td>{{ $k->divisi }}</td>
             <td>{{ strtolower($k->departemen) }}</td>
             <td>
-            <a href="/karyawan/edit/{{ $k->kodepegawai }}" class="btn btn-success">Edit</a>
+            {{-- <a href="/karyawan/edit/{{ $k->kodepegawai }}" class="btn btn-success">Edit</a> --}}
             <a href="/karyawan/hapus/{{ $k->kodepegawai }}"class="btn btn-danger">Hapus</a>
             </td>
             </tr>

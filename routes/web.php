@@ -98,7 +98,7 @@ Route::get('/truk/cari', [TrukDBController::class, 'cari']);
 Route::get('/karyawan', [KaryawanDBController::class, 'index']);
 Route::get('/karyawan/tambah', [KaryawanDBController::class, 'tambah']);
 Route::post('/karyawan/store', [KaryawanDBController::class, 'store']); //jika form dikirim, route ini akan dijalankan
-Route::get('/karyawan/edit/{id}',[KaryawanDBController::class, 'edit']);
+// Route::get('/karyawan/edit/{id}',[KaryawanDBController::class, 'edit']);
 Route::post('/karyawan/update',[KaryawanDBController::class, 'update']);
 Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
 
