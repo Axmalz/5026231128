@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\TrukDBController;
+use App\Http\Controllers\KaryawanDBController;
 // import java.io; (sama kayak use)
 
 /*
@@ -92,3 +93,13 @@ Route::post('/truk/update',[TrukDBController::class, 'update']);
 Route::get('/truk/hapus/{id}', [TrukDBController::class, 'hapus']);
 
 Route::get('/truk/cari', [TrukDBController::class, 'cari']);
+
+//route KaryawanDB
+Route::get('/karyawan', [KaryawanDBController::class, 'index']);
+Route::get('/karyawan/tambah', [KaryawanDBController::class, 'tambah']);
+Route::post('/karyawan/store', [KaryawanDBController::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::get('/karyawan/edit/{id}',[KaryawanDBController::class, 'edit']);
+Route::post('/karyawan/update',[KaryawanDBController::class, 'update']);
+Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
+
+Route::get('/karyawan/cari', [KaryawanDBController::class, 'cari']);

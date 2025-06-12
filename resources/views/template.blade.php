@@ -2,7 +2,17 @@
 <html lang="en">
 
 <head>
-    <title>Fadhiil Akmal Hamizan : 5026231128</title>
+    <title><b>Fadhiil Akmal Hamizan : 5026231128</b></title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <style>
+        body, h1, h2, h3, h4, h5, h6, .navbar, .nav-link {
+            font-family: 'Poppins', sans-serif !important;
+        }
+        .jumbotron, .jumbotron h1 {
+            color: #fff !important;
+        }
+    </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap 4 CSS -->
@@ -12,7 +22,7 @@
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <style>
         .jumbotron {
-            background-color: #9de2e2;
+            background-color: #010053;
             height: 100px;
         }
     </style>
@@ -46,7 +56,7 @@
                     <a class="nav-link" href="#">EAS</a>
                 </li>
                 <li class="nav-item {{ request()->is('latihan-1') ? 'active' : '' }}">
-                    <a class="nav-link" href="#">Latihan 1</a>
+                    <a class="nav-link" href="/karyawan">Latihan 1</a>
                 </li>
                 <li class="nav-item {{ request()->is('latihan-2') ? 'active' : '' }}">
                     <a class="nav-link" href="#">Latihan 2</a>
