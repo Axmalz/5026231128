@@ -182,19 +182,19 @@
             </a>
             <a href="{{ url('/pertama') }}" style="text-decoration: none;">
                 <div class="card">
-                    <span style="color: #2B3A45; font-weight: bold;">Pertemuan 1</span>
+                    <span style="color: #2B3A45; font-weight: bold;">Tugas Pertemuan 1</span>
                     <p>Artikel ITS</p>
                 </div>
             </a>
             <a href="{{ url('/pertemuan4') }}" style="text-decoration: none;">
                 <div class="card">
-                    <span style="color: #2B3A45; font-weight: bold;">Pertemuan 4</span>
+                    <span style="color: #2B3A45; font-weight: bold;">Tugas Pertemuan 4</span>
                     <p>Form</p>
                 </div>
             </a>
             <a href="{{ url('/pertemuan7') }}" style="text-decoration: none;">
                 <div class="card">
-                    <span style="color: #2B3A45; font-weight: bold;">Pertemuan 7</span>
+                    <span style="color: #2B3A45; font-weight: bold;">Tugas Pertemuan 7</span>
                     <p>Notifikasi Validasi Form</p>
                 </div>
             </a>
@@ -220,6 +220,12 @@
                 <div class="card">
                     <span style="color: #2B3A45; font-weight: bold;">Tugas Pertemuan 15</span>
                     <p>CRUD Database Karyawan [Latihan 1]</p>
+                </div>
+            </a>
+            <a href="{{ url('/karyawan') }}" style="text-decoration: none;">
+                <div class="card">
+                    <span style="color: #2B3A45; font-weight: bold;">Tugas Pertemuan 15</span>
+                    <p>Page Counter [Latihan 2]</p>
                 </div>
             </a>
         </div>

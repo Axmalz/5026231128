@@ -7,6 +7,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\TrukDBController;
 use App\Http\Controllers\KaryawanDBController;
+use App\Http\Controllers\PageCounterController;
 // import java.io; (sama kayak use)
 
 /*
@@ -103,3 +104,9 @@ Route::post('/karyawan/update',[KaryawanDBController::class, 'update']);
 Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
 
 Route::get('/karyawan/cari', [KaryawanDBController::class, 'cari']);
+
+// Jika ingin di root: /
+Route::get('/pagecounter', [PageCounterController::class, 'index']);
+
+// Atau jika ingin di /pagecounter:
+// Route::get('/pagecounter', [PageCounterController::class, 'index']);

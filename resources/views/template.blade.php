@@ -59,7 +59,7 @@
                     <a class="nav-link" href="/karyawan">Latihan 1</a>
                 </li>
                 <li class="nav-item {{ request()->is('latihan-2') ? 'active' : '' }}">
-                    <a class="nav-link" href="#">Latihan 2</a>
+                    <a class="nav-link" href="/pagecounter">Latihan 2</a>
                 </li>
                 <li class="nav-item {{ request()->is('latihan-3') ? 'active' : '' }}">
                     <a class="nav-link" href="#">Latihan 3</a>
