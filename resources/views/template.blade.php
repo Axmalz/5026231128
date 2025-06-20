@@ -53,7 +53,7 @@
                     <a class="nav-link" href="/truk">Tugas CRUD</a>
                 </li>
                 <li class="nav-item {{ request()->is('eas') ? 'active' : '' }}">
-                    <a class="nav-link" href="#">EAS</a>
+                    <a class="nav-link" href="/eas">EAS</a>
                 </li>
                 <li class="nav-item {{ request()->is('latihan-1') ? 'active' : '' }}">
                     <a class="nav-link" href="/karyawan">Latihan 1</a>

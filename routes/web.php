@@ -8,6 +8,7 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\TrukDBController;
 use App\Http\Controllers\KaryawanDBController;
 use App\Http\Controllers\PageCounterController;
+use App\Http\Controllers\NilaiController;
 // import java.io; (sama kayak use)
 
 /*
@@ -110,3 +111,9 @@ Route::get('/pagecounter', [PageCounterController::class, 'index']);
 
 // Atau jika ingin di /pagecounter:
 // Route::get('/pagecounter', [PageCounterController::class, 'index']);
+
+//route nilai
+Route::get('/eas', [NilaiController::class, 'index']);
+Route::get('/eas/tambah', [NilaiController::class, 'tambah']);
+Route::post('/eas/store', [NilaiController::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::post('/eas/update',[NilaiController::class, 'update']);
